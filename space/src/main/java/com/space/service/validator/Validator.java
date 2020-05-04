@@ -1,7 +1,6 @@
 package com.space.service.validator;
 
 import com.space.model.Ship;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.sql.Date;
 

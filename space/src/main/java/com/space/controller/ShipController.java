@@ -19,13 +19,6 @@ import java.util.List;
 @RequestMapping("rest")
 public class ShipController {
 
-//	private final String NAME_DEFAULT_VALUE = "";
-//	private final String PLANET_DEFAULT_VALUE = "";
-//	private final ShipType SHIPTYPE_DEFAULT_VALUE = null;
-//	private final Long AFTER_DEFAULT_VALUE = 0L;
-//	private final Long BEFORE_DEFAULT_VALUE = Long.MAX_VALUE;
-//	private final Boolean IsUSED_DEFAULT_VALUE = null;
-
 	@Autowired
 	private ShipServiceImpl service;
 

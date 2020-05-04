@@ -3,8 +3,6 @@ package com.space.model;
 import jdk.nashorn.internal.objects.annotations.Setter;
 
 import javax.persistence.*;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.sql.Date;
 
 
@@ -47,8 +45,6 @@ public class Ship {
 		this.name = name;
 		this.planet = planet;
 		this.shipType = shipType;
-//		this.prodDate = new Date();
-//		setProdDate(prodDate);
 		this.prodDate = prodDate;
 		this.isUsed = isUsed;
 		this.speed = speed;
@@ -86,12 +82,6 @@ public class Ship {
 	}
 
 	public void setProdDate(Date prodDate) {
-//		try {
-//			this.prodDate.setTime(new SimpleDateFormat("yyy-MM-dd").parse(prodDate).getTime());
-//		} catch (ParseException e) {
-//			e.printStackTrace();
-//		}
-
 		this.prodDate = prodDate;
 	}
 
