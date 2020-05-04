@@ -1,5 +1,7 @@
 package com.space.config;
 
+import com.space.repository.ShipRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
